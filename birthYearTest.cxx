@@ -9,5 +9,6 @@ int main(){
     printf("Enter the current year:");
     scanf("%d", &currentYear);
     age = currentYear - birthYear;
-    printf("Your age is: 2002%d", age);
+    printf("Your age is: %d", age);
+    return 0;
 }

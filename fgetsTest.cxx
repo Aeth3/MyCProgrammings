@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    int size;
-    char name[size];
+    char name[30];
     printf("enter your full name: ");
     fgets(name, sizeof(name), stdin);
     printf("your name: ");
